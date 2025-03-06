@@ -11,6 +11,7 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Стили для header */
 .header {
   position: relative;
   display: flex;
@@ -18,10 +19,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
 .logo_place_header {
   position: absolute;
@@ -74,7 +72,50 @@
   bottom: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+/* Стили для секции description */
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.description__two-columns {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+/* Стили для элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
