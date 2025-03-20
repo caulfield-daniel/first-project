@@ -211,6 +211,38 @@
   font-size: 36px;
   font-weight: normal;
 }
+
+/* Стили для секции kaufman */
+.kaufman {
+  overflow: hidden;
+  position: relative;
+  padding: 90px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  z-index: 0;
+}
+
+.table_theme_dark {
+  z-index: 1;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
