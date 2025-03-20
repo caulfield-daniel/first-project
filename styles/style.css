@@ -120,7 +120,6 @@
 .digits {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -177,7 +176,7 @@
   position: relative;
   height: 890px;
   background-color: #f2f2f2;
-  background-image: url(/images/feynman.png);
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 867px 637px;
@@ -248,4 +247,71 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/* Стили для footer */
+
+.footer {
+  background-color: #1f1f1f;
+  height: 350px;
+  display: flex;
+}
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 60px auto 40px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  height: 32px;
+  width: 228px;
+}
+
+.footer__author {
+  margin: 18px 0 18px;
+  color: white;
+  width: fit-content;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer_social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__column-heading {
+  color: white;
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
